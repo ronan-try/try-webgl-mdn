@@ -163,7 +163,7 @@
     
       let canvas = document.getElementById('webgl');
       const gl = canvas.getContext('webgl');
-      drawScene(gl, , initBuffers(gl))
+      drawScene(gl, initShaderProgram(gl, 'vsSource', 'fragmentSource'), initBuffers(gl))
     })(this);
   </script>
 </body>
