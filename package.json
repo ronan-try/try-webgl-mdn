@@ -1,0 +1,23 @@
+{
+  "name": "try-webgl-mdn",
+  "version": "1.0.0",
+  "description": "> 最大的收获就是:\r >> 顶点着色器(VERTEX_SHADER)\r >> 片段着色器(FRAGMENT_SHADER)",
+  "main": "index.js",
+  "scripts": {
+    "start":"http-server ./mdn-examples/",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ronan-try/try-webgl-mdn.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ronan-try/try-webgl-mdn/issues"
+  },
+  "homepage": "https://github.com/ronan-try/try-webgl-mdn#readme",
+  "dependencies": {
+    "http-server": "^0.12.3"
+  }
+}
